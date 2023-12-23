@@ -1,5 +1,4 @@
 #This is to test how the insert function works
-
 numbers= [1, 2, 3, 4, 6, 7, 8, 9, 10]
 numbers.insert (4, 5)
 print(numbers)
@@ -15,4 +14,12 @@ print(name)
 
 #This is to test how to use the append function
 name.append ("Chika")
+print(name)
+
+#This is to test the extend and remove functions
+
+name.extend (["Chioma", "Chinwe", "Ugo", "Favour"])
+print(name)
+
+name.remove ("Joe")
 print(name)
